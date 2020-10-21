@@ -1,7 +1,7 @@
 # Json Reader
 Reads json file to rdd, parse each line to case class and prints out each case class value.
 
-##Usage
+## Usage
 Build in ide and submit:
 ```
 SPARK_DIR=${PATH_TO_SPARK} \
