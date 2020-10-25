@@ -1,6 +1,6 @@
 PROJECT_DIR ?= $(shell pwd)
 SPARK_DIR ?= ${PROJECT_DIR}/.spark
-WINEMAG_PATH ?= ${PROJECT_DIR}/winemag-data-130k-v2.json
+WINEMAG_PATH ?= ${PROJECT_DIR}/.data/winemag-data-130k-v2.json
 
 submit:
 	{$SPARK_DIR}/bin/spark-submit --master local[*] --class com.example.JsonReader \
